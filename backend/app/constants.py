@@ -1,0 +1,3 @@
+"""
+Constant variables in project.
+"""

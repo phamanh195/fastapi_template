@@ -1,0 +1,17 @@
+# Web Server
+# ------------------------------------------------------------------------------
+fastapi==0.92.0  # https://github.com/tiangolo/fastapi
+uvicorn==0.20.0  # https://github.com/encode/uvicorn
+
+# Security
+passlib[bcrypt]==1.7.4  # https://github.com/glic3rinu/passlib
+python-jose[cryptography]==3.3.0  # https://github.com/mpdavis/python-jose
+
+# Database
+# ------------------------------------------------------------------------------
+SQLAlchemy[mypy]==2.0.4  # https://github.com/sqlalchemy/sqlalchemy
+psycopg2-binary==2.9.5  # https://github.com/psycopg/psycopg2
+SQLAlchemy-Utils==0.40.0  # https://github.com/kvesteri/sqlalchemy-utils
+
+# Misc
+email-validator==1.3.1  # https://github.com/JoshData/python-email-validator

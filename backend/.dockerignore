@@ -1,0 +1,8 @@
+venv
+.dockerignore
+.gitignore
+.pre-commit-config.yaml
+backend.dockerfile
+htmlcov
+.coverage
+.pytest_cache

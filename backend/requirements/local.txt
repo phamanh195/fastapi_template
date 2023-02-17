@@ -1,0 +1,35 @@
+-r base.txt
+
+# ------------------------------------------------------------------------------
+# Development tools
+# ------------------------------------------------------------------------------
+# Debug tool
+ipdb==0.13.11  # https://github.com/gotcha/ipdb
+
+# Precommit
+# ------------------------------------------------------------------------------
+pre-commit==3.0.4  # https://github.com/pre-commit/pre-commit
+
+# Style convention
+# ------------------------------------------------------------------------------
+flake8==6.0.0  # https://github.com/PyCQA/flake8
+flake8-isort==6.0.0  # https://github.com/gforcada/flake8-isort
+flake8-docstrings==1.7.0  # https://github.com/PyCQA/flake8-docstrings
+black==23.1.0  # https://github.com/psf/black
+
+# Type convention
+# ------------------------------------------------------------------------------
+mypy==1.0.1  # https://github.com/python/mypy
+
+# Testing
+coverage==7.2.0  # https://github.com/nedbat/coveragepy
+pytest==7.2.1  # https://github.com/pytest-dev/pytest
+pytest-sugar==0.9.6  # https://github.com/Frozenball/pytest-sugar
+pytest-cov==4.0.0  # https://github.com/pytest-dev/pytest-cov
+pytest-xdist==3.2.0  # https://github.com/pytest-dev/pytest-xdist
+
+# Factory
+factory-boy==3.2.1  # https://github.com/FactoryBoy/factory_boy
+
+# Webserver extensions
+httpx==0.23.3  # https://github.com/projectdiscovery/httpx
